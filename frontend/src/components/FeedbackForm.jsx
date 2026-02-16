@@ -69,7 +69,10 @@ function FeedbackForm() {
       </select>
 
       <button type ='submit'
-      className='w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-800 transition'>Submit</button>
+      className='w-full bg-gradient-to-r from-blue-500 to-indigo-700 text-white py-2 rounded-lg 
+      hover:from-blue-600 hover:to-indigo-800 transition-all duration-300 ease-in-out
+
+'>Submit</button>
       </form>
 
       {success && ( <p className='mt-3 text-green-300 font-medium'>{success}
